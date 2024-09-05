@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext",              // Suporte a módulos ES
+      "moduleResolution": "NodeNext",    // Resolução de módulos
+      "target": "ES2020",                // Compilação para ES2020
+      "outDir": "./dist",                // Diretório de saída
+      "sourceMap": true,                 // Geração de mapas de fonte
+      "strict": true,                    // Ativa verificações estritas
+      "esModuleInterop": true,           // Habilita interoperabilidade com módulos ES
+      "skipLibCheck": true,              // Pular verificação de tipos em bibliotecas
+      "forceConsistentCasingInFileNames": true  // Forçar consistência de maiúsculas e minúsculas
+    },
+    "include": ["src/**/*"],             // Incluir arquivos na pasta src
+    "exclude": ["node_modules"]          // Excluir a pasta node_modules
+}
